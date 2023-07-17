@@ -12,7 +12,7 @@ Functional Components
 Class Components
 Running Tests
 
-Prerequisites
+-> Prerequisites
 Before getting started, make sure you have the following installed:
 
 Node.js (version 12 or higher)
@@ -21,12 +21,12 @@ React (version 16.8 or higher)
 Jest (version 27 or higher)
 Enzyme (version 3 or higher)
 
-Installation
+-> Installation
 To install the required dependencies, run the following command in your project directory:
 
 npm install --save-dev jest enzyme enzyme-adapter-react-16
 
-Writing Test Cases
+-> Writing Test Cases
 Here we will make two files example.scenario.feature and example.web.steps.tsx .
 In example.scenario.feature file we will write diffrent scenarios and diffrent steps which user will face when he/she will login to the app and use the particular feature ,and face the steps written inside scenario.
 
@@ -44,7 +44,7 @@ Feature: Example
 For Second file we will see how to write test cases for fuctional and class component
 The main difference lies in the scope and focus of the test cases. Test cases in a class typically target specific methods or functions within a class, while test cases in a functional component typically encompass the overall behavior and functionality of the component itself.
 
-Functional Components
+-> Functional Components
 For funtional components,, we can use Jest and Enzyme's shallow rendering.
 
 import { defineFeature, loadFeature } from "jest-cucumber"
